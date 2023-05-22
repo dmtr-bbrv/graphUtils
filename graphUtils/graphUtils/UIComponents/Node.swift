@@ -22,7 +22,6 @@ struct Node: View {
             Text("\(value)")
                 .foregroundColor(.black)
                 .position(position)
-
         }
     }
 }
