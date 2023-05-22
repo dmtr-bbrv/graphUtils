@@ -15,7 +15,6 @@ struct Node: View {
 
     var body: some View {
         ZStack {
-
             Circle()
                 .frame(width: radius, height: radius)
                 .foregroundColor(color)
