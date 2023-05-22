@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D913C2CB2A1C0AE000AA0D7A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913C2CA2A1C0AE000AA0D7A /* Node.swift */; };
 		D9F7CD452A1BEB0300AF79AC /* graphUtilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7CD442A1BEB0300AF79AC /* graphUtilsApp.swift */; };
 		D9F7CD472A1BEB0300AF79AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7CD462A1BEB0300AF79AC /* ContentView.swift */; };
 		D9F7CD492A1BEB0400AF79AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F7CD482A1BEB0400AF79AC /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D913C2CA2A1C0AE000AA0D7A /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		D9F7CD412A1BEB0300AF79AC /* graphUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graphUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F7CD442A1BEB0300AF79AC /* graphUtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphUtilsApp.swift; sourceTree = "<group>"; };
 		D9F7CD462A1BEB0300AF79AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D913C2C92A1C0AC000AA0D7A /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D913C2CA2A1C0AE000AA0D7A /* Node.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 		D9F7CD382A1BEB0300AF79AC = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		D9F7CD432A1BEB0300AF79AC /* graphUtils */ = {
 			isa = PBXGroup;
 			children = (
+				D913C2C92A1C0AC000AA0D7A /* UIComponents */,
 				D9F7CD442A1BEB0300AF79AC /* graphUtilsApp.swift */,
 				D9F7CD462A1BEB0300AF79AC /* ContentView.swift */,
 				D9F7CD482A1BEB0400AF79AC /* Assets.xcassets */,
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F7CD4E2A1BEB0400AF79AC /* Persistence.swift in Sources */,
+				D913C2CB2A1C0AE000AA0D7A /* Node.swift in Sources */,
 				D9F7CD472A1BEB0300AF79AC /* ContentView.swift in Sources */,
 				D9F7CD512A1BEB0400AF79AC /* graphUtils.xcdatamodeld in Sources */,
 				D9F7CD452A1BEB0300AF79AC /* graphUtilsApp.swift in Sources */,
@@ -283,6 +295,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
